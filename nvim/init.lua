@@ -1,2 +1,2 @@
-require('options.lua')
-require('keymaps.lua')
+require('options')
+require('keymaps')
