@@ -1,9 +1,8 @@
 # Split Screen
-keybind = super+|=new_split:right
+keybind = super+\=new_split:right
 keybind = super+-=new_split:down
 
-# Tab Navigation
-keybind = super+t=new_tab
-keybind = super+tab=next_tab
-keybind = super+shift+tab=last_tab
-
+keybind = super+h=goto_split:left
+keybind = super+j=goto_split:down
+keybind = super+k=goto_split:up
+keybind = super+l=goto_split:right
