@@ -6,3 +6,6 @@ keybind = super+h=goto_split:left
 keybind = super+j=goto_split:down
 keybind = super+k=goto_split:up
 keybind = super+l=goto_split:right
+
+# Reload
+keybind = super+shift+r=reload_config
