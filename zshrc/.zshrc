@@ -1,7 +1,9 @@
+export PATH=$HOME/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
+
 eval "$(oh-my-posh init zsh --config ~/dotfiles/zshrc/theme.json)"
 eval "$(zoxide init zsh)"
 
-export PATH=$HOME/bin:$PATH
 
 alias n='nvim'
 
