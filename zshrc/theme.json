@@ -52,6 +52,12 @@
           "type": "git"
         },
         {
+          "foreground": "p:pink",
+          "style": "plain",
+          "template": "({{ .Venv }}) ",
+          "type": "python"
+        },
+        {
           "style": "plain",
           "foreground": "p:closer",
           "template": "\uf105",
