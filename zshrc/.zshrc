@@ -6,6 +6,7 @@ eval "$(zoxide init zsh)"
 
 
 alias n='nvim'
+alias ll='ls -la'
 
 alias gs='git status'
 alias ga='git add'
