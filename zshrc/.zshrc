@@ -1,5 +1,6 @@
 export PATH=$HOME/bin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 eval "$(oh-my-posh init zsh --config ~/dotfiles/zshrc/theme.json)"
 eval "$(zoxide init zsh)"
