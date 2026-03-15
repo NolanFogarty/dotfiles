@@ -8,7 +8,7 @@ eval "$(zoxide init zsh)"
 alias obsidian='open -a Obsidian'
 
 alias n='nvim'
-alias ll='ls -la'
+alias ll='ls -l'
 
 alias gs='git status'
 alias ga='git add'
