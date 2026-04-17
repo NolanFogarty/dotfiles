@@ -22,8 +22,10 @@ alias pip='pip3'
 alias python='python3'
 alias cv='rendercv'
 
-if [[ $1 == "man" ]]; then
-  go "${@:2}"
-else 
-  go "$@"
-fi
+go() {
+  if [[ $1 == "man" ]]; then
+    command go doc "${@:2}"
+  else
+    command go "$@"
+  fi
+}
