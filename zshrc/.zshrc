@@ -12,6 +12,7 @@ alias n='nvim'
 alias vi='nvim'
 
 alias ll='ls -l'
+alias ld='ls -ld */'
 
 alias gs='git status'
 alias ga='git add'
@@ -22,10 +23,5 @@ alias pip='pip3'
 alias python='python3'
 alias cv='rendercv'
 
-go() {
-  if [[ $1 == "man" ]]; then
-    command go doc "${@:2}"
-  else
-    command go "$@"
-  fi
-}
+set -o vi
+export PATH=$PATH:$HOME/go/bin
