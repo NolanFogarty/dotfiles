@@ -11,8 +11,9 @@ alias hn='clx'
 alias n='nvim'
 alias vi='nvim'
 
-alias ll='ls -l'
+alias ll='ls -la'
 alias ld='ls -ld */'
+alias lsh='ls -I "node_modules|bun.lock"'
 
 alias gs='git status'
 alias ga='git add'
@@ -25,3 +26,10 @@ alias cv='rendercv'
 
 set -o vi
 export PATH=$PATH:$HOME/go/bin
+
+# bun completions
+[ -s "/Users/nolanfogarty/.bun/_bun" ] && source "/Users/nolanfogarty/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
