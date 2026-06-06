@@ -23,6 +23,7 @@ alias gp='git push'
 alias pip='pip3'
 alias python='python3'
 alias cv='rendercv'
+alias nba='courtside'
 
 set -o vi
 export PATH=$PATH:$HOME/go/bin
