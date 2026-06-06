@@ -1,0 +1,22 @@
+# applications
+alias obsidian='open -a Obsidian'
+alias n='nvim'
+alias vi='nvim'
+alias hn='clx'
+alias cv='rendercv'
+alias nba='courtside'
+
+# ls variants
+alias ll='ls -la'
+alias ld='ls -ld */'
+alias lsh='ls -I "node_modules|bun.lock"'
+
+# git
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+
+# python
+alias pip='pip3'
+alias python='python3'
