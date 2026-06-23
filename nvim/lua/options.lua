@@ -27,7 +27,7 @@ vim.opt.smartcase = true            -- but make it case sensitive if an uppercas
 vim.opt.scrolloff = 10
 
 -- Colorscheme
-vim.cmd.colorscheme("catppuccin")
+-- vim.cmd.colorscheme("catppuccin")
 
 -- Clipboard Passthrough
 vim.g.clipboard = {

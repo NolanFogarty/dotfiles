@@ -19,3 +19,5 @@ eval "$(zoxide init zsh)"
 
 # aliases
 source ~/dotfiles/zshrc/.aliases
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

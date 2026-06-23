@@ -14,8 +14,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 [ -s "/Users/nolanfogarty/.bun/_bun" ] && source "/Users/nolanfogarty/.bun/_bun"
 
 # tool initialization
-eval "$(oh-my-posh init bash --config ~/dotfiles/zshrc/theme.json)"
+eval "$(oh-my-posh init bash --config ~/dotfiles/bashrc/theme.json)"
 eval "$(zoxide init bash)"
 
 # aliases
 source ~/dotfiles/bashrc/.aliases
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

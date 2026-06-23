@@ -3,7 +3,7 @@ alias obsidian='open -a Obsidian'
 alias n='nvim'
 alias vi='nvim'
 alias hn='clx'
-alias cv='rendercv'
+alias cv='rendercv render'
 alias nba='courtside'
 
 # ls variants
