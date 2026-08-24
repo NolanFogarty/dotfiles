@@ -17,6 +17,7 @@ alias ga='git add'
 alias gc='git commit'
 alias gp='git push'
 alias gls='git ls-files'
+alias gb='git branch'
 
 # python
 uvr() { uv run --env-file .env "$1" }
