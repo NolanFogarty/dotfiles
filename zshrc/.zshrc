@@ -2,8 +2,8 @@
 set -o vi
 
 # PATH configuration
-export PATH=$HOME/bin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
+export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export PATH=$PATH:$HOME/go/bin
@@ -21,3 +21,6 @@ eval "$(zoxide init zsh)"
 source ~/dotfiles/zshrc/.aliases
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# opencode
+export PATH=/Users/nolanfogarty/.opencode/bin:$PATH
