@@ -7,6 +7,7 @@ export PATH=/opt/homebrew/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export PATH=$PATH:$HOME/go/bin
+export PATH=/Users/nolanfogarty/.opencode/bin:$PATH
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
