@@ -173,15 +173,9 @@ do
   }
 
   -- [[ Colorscheme ]]
-  -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-  vim.pack.add { gh 'folke/tokyonight.nvim' }
-  ---@diagnostic disable-next-line: missing-fields
-  require('tokyonight').setup {
-    styles = {
-      comments = { italic = false }, -- Disable italics in comments
-    },
-  }
-  vim.cmd.colorscheme 'tokyonight-night'
+  vim.pack.add { gh 'catppuccin/nvim' }
+  require('catppuccin').setup { styles = { comments = { } } }
+  vim.cmd.colorscheme 'catppuccin-mocha'
 
   -- [[ mini.nvim ]]
   --  A collection of various small independent plugins/modules
