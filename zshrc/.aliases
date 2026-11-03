@@ -1,3 +1,6 @@
+# reload
+alias src='source ~/.zshrc'
+
 # applications
 alias obsidian='open -a Obsidian'
 alias n='nvim'

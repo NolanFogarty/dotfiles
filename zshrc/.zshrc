@@ -22,3 +22,6 @@ eval "$(zoxide init zsh)"
 source ~/dotfiles/zshrc/.aliases
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Added by the Hunk installer (https://hunk.dev)
+export PATH='/Users/nolanfogarty/.hunk/bin':"$PATH"
