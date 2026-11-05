@@ -6,13 +6,14 @@ email = "nolan.k.fogarty@gmail.com"
 
 [ui]
 editor = "nvim"
-default-command = "log"
+default-command = "l"
 diff-formatter = ":git"
 pager = ["hunk", "pager"]
 merge-editor = "vimdiff"
 
 [aliases]
 init = ["git", "init"]
+l = ["log", "--no-pager"]
 
 [merge-tools.vimdiff]
 program = "nvim"
