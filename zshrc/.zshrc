@@ -8,6 +8,7 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export PATH=$PATH:$HOME/go/bin
 export PATH=/Users/nolanfogarty/.opencode/bin:$PATH
+export PATH='/Users/nolanfogarty/.hunk/bin':"$PATH"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
@@ -23,5 +24,4 @@ source ~/dotfiles/zshrc/.aliases
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Added by the Hunk installer (https://hunk.dev)
-export PATH='/Users/nolanfogarty/.hunk/bin':"$PATH"
+export EDITOR="nvim"
