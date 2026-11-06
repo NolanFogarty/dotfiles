@@ -1,0 +1,5 @@
+[keybindings]
+"hunk.review.pageDown" = ["ctrl+f", "pagedown", "space", "f"]
+"hunk.review.pageUp" = ["ctrl+b", "pageup", "b", "shift+space"]
+"hunk.review.halfPageDown" = "ctrl+d"
+"hunk.review.halfPageUp" = "ctrl+u"
